@@ -1,0 +1,97 @@
+@import "../../variables.scss";
+@import "../../icon-fonts.css";
+
+/********************************
+TOP NAV
+********************************/
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: $max;
+    height: 66px;
+    margin: 0 0 $m5 0;
+    padding: 0 48px 0 48px;
+    background-color: $white;
+    z-index: 999;
+    .site-brand {
+        display: flex;
+        align-items: center;
+        width: $max * 0.088;
+        height: 66px;
+        padding: $m1 * 1.5 0;
+        text-align: center;
+        img {
+            width: $max;
+        }
+    }
+}
+
+ul.navigation-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $max * 0.55;
+    height: 74px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-family: $font1;
+    font-weight: 400;
+    letter-spacing: $ls5 * 0.5;
+    li {
+        list-style-type: none;
+        height: auto;
+        margin-right: $m4 * 1.1;
+        color: $dark;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+    a.action-link {
+        display: block;
+        position: relative;
+        text-decoration: none;
+        font-size: 1.45rem;
+        font-weight: 400;
+        letter-spacing: $ls3 * 1.3;
+        &:not(.btn) {
+            color: $dark;
+            font-weight: 500;
+            &.active {
+                color: $midBlue;
+            }
+        }
+    }
+}
+
+ul.navigation-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: $max * 0.15;
+    height: 74px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: $font1;
+    font-weight: 400;
+    letter-spacing: $ls5 * 0.5;
+    li {
+        list-style-type: none;
+        margin-right: $m3;
+        color: $dark;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+    a.login {
+        text-decoration: none;
+        color: $dark;
+        font-family: $font1;
+        font-size: 1.3rem;
+        letter-spacing: $ls5 * 0.5;
+        font-weight: 500;
+    }
+}

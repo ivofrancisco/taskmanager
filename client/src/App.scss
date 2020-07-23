@@ -1,0 +1,43 @@
+// Essentials
+@import "variables.scss";
+@import "icon-fonts.css";
+
+// Pages
+
+/********************************
+GLOBALS
+********************************/
+html {
+    width: $max;
+    height: $max;
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    width: $max;
+    height: $max;
+    background-color: #eef0f7;
+    font-family: $font1;
+    font-size: 1.4rem;
+    z-index: -1;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.container {
+    width: $max * 0.925;
+}
+
+.blue {
+    background-color: $blue;
+}
+
+.orange {
+    background-color: $orange;
+}
+
+.green {
+    background-color: $green;
+}

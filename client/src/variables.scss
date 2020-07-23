@@ -1,0 +1,59 @@
+// Dimensions
+$max: 100%;
+$half: $max / 2;
+$third: $max / 3;
+$quarter: $max / 4;
+$tenth: $max / 10;
+$rm: 0.8rem;
+$px: 8px;
+
+// Fonts
+// $font1: 'Nunito Sans', sans-serif;
+$font1: 'Roboto', sans-serif;
+$font2: 'Open Sans', sans-serif;
+
+// Spacings:
+// margins, line heights
+$m: $rm / 2;
+$m1: $rm;
+$m2: $rm * 2;
+$m3: $rm * 3;
+$m4: $rm * 4;
+$m5: $rm * 5;
+$m6: $rm * 6;
+$m7: $rm * 7;
+$m8: $rm * 8;
+$m9: $rm * 9;
+$m10: $rm * 10;
+
+// Spacings:
+// letters spacings
+$ls: 0.025rem;
+$ls1: 0.05rem;
+$ls2: 0.075rem;
+$ls3: 0.1rem;
+$ls4: 0.2rem;
+$ls5: 0.375rem;
+$ls6: 0.5rem;
+$ls7: 0.65rem;
+$ls8: 0.8rem;
+$ls9: 1.0rem;
+$ls10: 1.5rem;
+
+// Colors
+$dark: #1d2936;
+$drkBlue: #2a2d45;
+$midBlue: #455af7;
+$ltBlue: #818de3;
+$bright: #eff0f6;
+$white: #ffffff;
+$drkGrey: #4d5063;
+$grey: #666876;
+$ltGrey: #a9aab5;
+
+$drkWhite: #eef0f7;
+$gold: $midBlue;
+
+$blue: #00bcd4;
+$orange: #ff7043;
+$green: #64dd17;
